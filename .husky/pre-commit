@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Ele não precisa instalar porque a dependencia ja existe
+npm run --no-install lint-staged
